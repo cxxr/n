@@ -23,7 +23,7 @@ n() {
             case $1 in
                 ''|*[!0-9]*) 
                     echo "Invalid argument to n"
-                    exit 2
+                    return 2
                 ;;
                 *)
                     INCREMENT=$1

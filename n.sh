@@ -18,7 +18,7 @@ n() {
         LINE=`cut -f 1 $STATE_FILE`
         FILE=`cut -f 2 $STATE_FILE`
 
-        if [ -n $1 ]; then
+        if [ -n "$1" ]; then
             # Test for number
             case $1 in
                 ''|*[!0-9]*) 

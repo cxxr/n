@@ -33,7 +33,7 @@ copy/paste or build up a command line over time.
 
 Add to your .bashrc/.zshrc/.shrc:
 
-. /path/to/n.sh
+    . /path/to/n.sh
 
 n keeps a state file ~/.nstate for its purposes
 
